@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .color-square {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border: 5px solid #000000; 
+        }
+
+        .blue { background-color: #2b2b33; margin: 50px 50px 50px 400px; } 
+        .yellow { background-color: #111c4b; margin: 50px 50px 200px 300px; } 
+        .green { background-color: #820200; margin: 50px 50px 50px 100px; } 
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        .side-bars {
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 10%;
+            background-color: #01002b;
+            z-index: -1;
+        }
+
+        .left-side {
+            left: 0;
+        }
+
+        .right-side {
+            right: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative; /* Ajout de position relative pour positionner les carrés par rapport à ce conteneur */
+        }
+
+        .container img {
+            position: absolute;
+            top: 150%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border:10px solid black;
+        }
+
+        h1 {
+            margin: 0;
+            color: #000000;
+        }
+
+        h3 {
+            margin: 0;
+            color: #000000;
+        }
+
+        h2 {
+            margin: 0;
+            color: #0000ff;
+        }
+        h4{
+            margin: 0;
+            color: #820200;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <title>KNIGHT-nemesis</title>
+</head>
+<body>
+    <div class="side-bars left-side"></div>
+    <div class="side-bars right-side"></div>
+    <div class="container">
+        <h1>KNIGHT-nemesis</h1>
+        <h3>Description</h3>
+        <p>Knight-Nemesis est un créateur de contenu principalement
+            orienté vers la création d'edits (courtes vidéos d'un passage important de film ou autre).
+            Son contenu s'adresse aux fans de Transformers.
+            <strong>Il est actif depuis le 25 juillet 2023.</strong>
+            Message de la part de KNIGHT-Nemesis : <strong>GO 500 abonnés !</strong>
+            <h4>developper:ISPA</h4><strong>Ceci est un entrainement de ma part! </strong>
+        </p>
+        <p><h2>Lien:</h2></p>
+        <a href="https://www.youtube.com/@KNIGHT-Nemesis"><h2>KNIGHT-Nemesis</h2></a>
+        <a href="https://www.youtube.com/shorts/8x4prPtf_D4"><h2>Best EDIT OF KNIGHT-Nemesis</h2></a>
+        <img src="https://yt3.googleusercontent.com/_jDfZqmt_BlG4jn6Bcv18d6Vg9wIy2A6OK2GMlEXoWpofD3aGliQrRI0WMn7HEZJX8etGTAgyw=s176-c-k-c0x00ffffff-no-rj">
+    </div>
+    <div class="color-square blue"></div>
+    <div class="color-square yellow"></div>
+    <div class="color-square green"></div>
+</body>
+</html>
